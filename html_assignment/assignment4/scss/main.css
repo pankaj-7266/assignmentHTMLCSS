@@ -1,0 +1,122 @@
+.container {
+  border: 1px solid black;
+  background-color: rgb(41, 38, 38);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 80%;
+  height: calc(100vh - 380px);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .wrapper__header {
+  height: 100px;
+}
+.wrapper .wrapper__header .header__circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgb(255, 32, 32);
+  margin: 10px;
+}
+.wrapper .wrapper__header .header__para {
+  color: white;
+  position: absolute;
+  top: 2.5%;
+  left: 2.5%;
+  font-family: arial;
+}
+.wrapper .wrapper__header .header__heading {
+  color: white;
+  position: absolute;
+  top: 6%;
+  left: 2.5%;
+  font-size: 35px;
+  font-family: arial;
+}
+
+.wrapper__form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+.wrapper__form .input__name, .wrapper__form .input__email, .wrapper__form .input__telephone {
+  flex-grow: 1;
+  width: 30.2%;
+  padding: 20px;
+  background: rgb(41, 38, 38);
+  color: azure;
+  border-radius: 3px;
+  margin: 0 7px 30px 0px;
+}
+.wrapper__form input:focus, .wrapper__form select:focus {
+  outline: 2px solid rgb(37, 83, 136);
+}
+.wrapper__form .input__name, .wrapper__form .input__email {
+  float: left;
+}
+.wrapper__form .telephone {
+  width: 6%;
+  height: 20.4%;
+  border: 1px solid rgb(236, 227, 227);
+  float: left;
+  margin: 0px 8px 0px 10px;
+}
+.wrapper__form select {
+  width: 100%;
+  height: 100%;
+  background: rgb(41, 38, 38);
+  font-size: 40px;
+  padding: 5px;
+}
+.wrapper__form .input__linkedin {
+  flex-grow: 1;
+  width: 99%;
+  padding: 20px;
+  background: rgb(41, 38, 38);
+  color: azure;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.wrapper__form .input__resume {
+  flex-grow: 1;
+  width: 99%;
+  height: 50%;
+  background: rgb(41, 38, 38);
+  color: azure;
+  border-radius: 3px;
+  margin: 20px 0px;
+  padding: 20px;
+  border-style: dashed;
+}
+.wrapper__form .submit {
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper__form .input__submit {
+  padding: 13px 50px;
+  color: white;
+  background: rgb(74, 74, 173);
+  border: 1px solid transparent;
+  margin: 0px 15px 0px 0px;
+}
+.wrapper__form input:hover {
+  border-color: rgb(125, 125, 197);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 98%;
+  height: 98%;
+}/*# sourceMappingURL=main.css.map */

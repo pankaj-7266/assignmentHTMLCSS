@@ -1,0 +1,10 @@
+.container{
+    width:98%;
+    height: 98%;
+    border:2px solid $border-color;
+    position: absolute;
+    border-left:none;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}

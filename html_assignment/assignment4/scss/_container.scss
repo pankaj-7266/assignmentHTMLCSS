@@ -1,0 +1,48 @@
+.container{
+ 
+    border:1px solid black;
+    background-color: $bg;
+    position: absolute;
+    width:100%;
+    height:100%;
+  
+}
+.wrapper{
+
+    width:80%;
+    height: calc(100vh - 380px);
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+    .wrapper__header{
+        height:100px;
+        
+        
+        .header__circle{
+            width:80px;
+            height:80px;
+            border-radius: 50%;
+            background:rgb(255, 32, 32);
+            margin:10px;
+        }
+        .header__para{
+
+            color: $font_color;
+            position: absolute;
+            top:2.5%;
+            left:2.5%;
+            font-family: $family;
+        }
+        .header__heading{
+            color:$font_color;
+            position: absolute;
+            top:6%;
+            left:2.5%;
+            font-size: 35px;
+            font-family: $family;
+        }
+    }
+    
+}

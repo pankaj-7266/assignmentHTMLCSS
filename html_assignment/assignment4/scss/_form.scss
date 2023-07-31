@@ -1,0 +1,87 @@
+.wrapper__form{
+   
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    box-sizing: border-box;
+ 
+    
+ 
+
+    .input__name,.input__email,.input__telephone{
+        flex-grow: 1;
+        width:30.20%;
+        padding:20px; 
+        background: $bg;
+        color:azure;
+        border-radius: $bd-radius;
+        margin:0 7px 30px 0px;
+    }
+    input:focus,select:focus{
+        outline:2px solid rgb(37, 83, 136);
+        
+    }
+    .input__name,.input__email{
+        float: left;
+    }
+    .telephone{
+        width:6%;
+        height:20.4%;
+        border:1px solid rgb(236, 227, 227);
+        float:left;
+        margin:0px 8px 0px 10px; 
+        
+    }
+    select{
+        width:100%;
+        height:100%;
+        background: $bg;
+        font-size: 40px;
+        padding:5px;
+    }
+
+    .input__linkedin{
+        flex-grow: 1;
+        width:99%;
+        padding:20px;
+        background:$bg;
+        color:azure;
+        border:1px solid white;
+        border-radius:$bd-radius;
+
+    }
+    .input__resume{
+        flex-grow: 1;
+        width:99%;
+        height:50%;
+        background: $bg;
+        color:azure;
+        border-radius: $bd-radius;
+        margin:20px 0px;
+        padding:20px;
+        border-style: dashed;
+    }
+    .submit{
+        display: flex;
+        justify-content: flex-end;
+      
+    }
+    .input__submit{
+
+        padding:13px 50px;
+        color:$font_color;
+        background: rgb(74, 74, 173);
+        border: 1px solid transparent;
+        margin:0px 15px 0px 0px;
+
+    }
+
+    input:hover{
+        border-color:rgb(125, 125, 197);    
+
+    }
+
+    
+    
+    
+}
