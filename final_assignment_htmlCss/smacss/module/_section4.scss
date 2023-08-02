@@ -1,0 +1,59 @@
+// section4 styling
+
+.sec4{
+    height:100vh;
+    width:100%;
+    .sec4__circle{
+        width:50px;
+        height:50px;
+        background:#3787C8;
+        border-radius:50%;
+        margin-left:35%;
+        margin-top:5%;
+    }
+
+    //dislay content in the box and use display flex
+    .sec4__wrapper{
+        display: flex;
+        justify-content: center;
+        column-gap: 350px;
+    }
+    //this section contains box
+    .wrapper__box{
+        width:200px;
+        margin-top:10%;
+    
+        
+     
+    }
+    // this section contains heading
+    .box,h1{
+        font-size: 120px;
+        font-family: Proxima Nova;
+    }
+    //this section contains paragraph
+    .box,p{
+        font-size: 30px;
+        margin:10%;
+    }
+    //this styling contains rectangle
+    .sec4__rectangle{
+        width:45px;
+        height:45px;
+        background-color: #DF4E31;
+        color:white;
+        position: relative;
+        left:60%;
+        top:10%;
+        
+        p{
+            rotate:30deg;
+            text-align: center;
+            position: absolute;
+            left:25%;
+        
+        
+        }
+    }
+
+}

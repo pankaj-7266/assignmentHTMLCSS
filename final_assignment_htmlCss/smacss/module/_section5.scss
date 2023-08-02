@@ -1,0 +1,104 @@
+// styling of section 5
+.sec5{
+    height: 80vh;
+    background-color: #EBF0F0;
+
+    .sec5__wrapper{
+        width:100%;
+        display: flex;
+
+        // this section container box
+
+        .sec5__wrapper--box{
+          
+            width:50%;
+            height:100%;
+            margin-top:10%;
+            margin-left: 1%;
+         
+        }
+        // styling of box 1
+        .box1{
+            position: relative;
+            .box1__circle{
+                width:100px;
+                height: 100px;
+                border-radius:50%;
+                background:#E14B32;
+                position: absolute;
+                left:30%;
+                margin-top:10%;
+
+            }
+            .box1--para1{
+                font-size:16px;
+                font-weight: bold;
+                position: relative;
+                left:35%;
+                margin-top:15%;
+            }
+            .box1--para2{
+                font-size: 48px;
+                position: relative;
+                left:35%;
+                margin-top:2%;
+
+                span{
+                    -webkit-text-stroke: 1px #707070;
+                    -webkit-text-fill-color: #EBF0F0;
+                }
+            
+            }
+            .box1--para3{
+                font-size:16px;
+                position: relative;
+                left:35%;
+                margin-top:2%;
+            }
+            .box1--para3::after{
+                content: "";
+                width:60px;
+                height: 1px;
+                background: blue;
+                position: absolute;
+                margin:10px;
+            }
+            .box1__triangle{
+                width:0px;
+                height: 0px;
+                border-left:37px solid #FAAF40;
+                border-top:37px solid transparent;
+                margin-left:60%;
+                margin-top: 13%;
+            }
+
+        }
+
+        // styling of box 2
+        .box2{
+            width:40%;
+            height: 100%;
+            
+            display: flex;
+            flex-wrap: wrap;
+            
+            .wrapper__box2--item{
+                flex:1 0 30%;
+                width:181px;
+                height:155px;
+            
+
+                img{
+                    width:60%;
+                    height: 60%;
+                    filter: grayscale(100%);
+                }
+            }
+            .item2,.item5,.item8{
+                width:100%;
+                height: 60%;
+                margin-top:3%;
+            }
+        }
+    }
+}
