@@ -1,0 +1,10 @@
+@import "base/base";
+@import "layout/background";
+@import "layout/component";
+@import "module/_module";
+
+.container{
+    background-image: url('background-images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
